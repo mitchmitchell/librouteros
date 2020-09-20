@@ -1,6 +1,7 @@
 AC_INIT(librouteros, 1.1.3)
 AC_CONFIG_SRCDIR(src/main.c)
 AC_CONFIG_HEADERS(src/config.h)
+AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([dist-bzip2 subdir-objects])
 AC_LANG(C)
 
