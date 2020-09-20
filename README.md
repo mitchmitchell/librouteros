@@ -11,7 +11,7 @@ prove useful, it will be added as the need arises.
 
 libtoolize
 autoreconf -i
-/configure
+./configure
 make
 make install
 
