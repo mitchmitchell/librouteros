@@ -7,6 +7,13 @@ in that it abstracts the network protocol used but has next to no knowledge
 about the commands and responses available. Should such an high-level interface
 prove useful, it will be added as the need arises.
 
+## Building
+
+libtoolize
+autoreconf -i
+/configure
+make
+make install
 
 ## Enabling API connections
 
