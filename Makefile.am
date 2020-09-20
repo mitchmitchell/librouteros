@@ -1,3 +1,3 @@
 SUBDIRS = src doc
-
+ACLOCAL_AMFLAGS = -I m4
 README:	README.md
